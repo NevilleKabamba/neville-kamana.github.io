@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Alex's Portfolio - Projects</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #5c6370;
+      --secondary-color: #e0e2e6;
+      --background-color: #f8f9fa;
+      --text-primary: #212529;
+      --text-secondary: #6c757d;
+      --accent-color: #ced4da;
+    }
+    body { font-family: 'Inter', sans-serif; background-color: var(--background-color); color: var(--text-primary);}
+</style>
+</head>
+<body>
+<header class="flex items-center justify-between border-b border-[var(--secondary-color)] px-10 py-4">
+<h1 class="text-xl font-bold">Projects</h1>
+<div class="hidden md:flex items-center space-x-8">
+  <a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] px-3 py-2 rounded-md text-sm font-medium" href="index.html">Home</a>
+  <a aria-current="page" class="text-[var(--text-primary)] bg-[var(--accent-color)] px-3 py-2 rounded-md text-sm font-medium" href="#">Projects</a>
+  <a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] px-3 py-2 rounded-md text-sm font-medium" href="index.html#about">About</a>
+  <a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] px-3 py-2 rounded-md text-sm font-medium" href="contact.html">Contact</a>
+</div>
+</header>
+<main class="p-10">
+<h2 class="text-2xl font-semibold mb-6">My Projects</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div class="bg-white p-6 rounded-lg shadow border border-[var(--secondary-color)]">
+    <h3 class="text-lg font-bold mb-2">Project 1</h3>
+    <p class="text-[var(--text-secondary)]">Description of project 1.</p>
+  </div>
+  <div class="bg-white p-6 rounded-lg shadow border border-[var(--secondary-color)]">
+    <h3 class="text-lg font-bold mb-2">Project 2</h3>
+    <p class="text-[var(--text-secondary)]">Description of project 2.</p>
+  </div>
+  <div class="bg-white p-6 rounded-lg shadow border border-[var(--secondary-color)]">
+    <h3 class="text-lg font-bold mb-2">Project 3</h3>
+    <p class="text-[var(--text-secondary)]">Description of project 3.</p>
+  </div>
+</div>
+</main>
+</body>
+</html>
+

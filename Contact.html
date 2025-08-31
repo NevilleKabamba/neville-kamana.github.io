@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Contact - Neville Kamana</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #5c6370;
+      --secondary-color: #e0e2e6;
+      --background-color: #f8f9fa;
+      --text-primary: #212529;
+      --text-secondary: #6c757d;
+      --accent-color: #ced4da;
+    }
+    body { font-family: 'Inter', sans-serif; background-color: var(--background-color); color: var(--text-primary);}
+</style>
+</head>
+<body>
+<header class="flex items-center justify-between border-b border-[var(--secondary-color)] px-10 py-4">
+<h1 class="text-xl font-bold">Contact</h1>
+<nav class="hidden md:flex items-center gap-8">
+  <a class="text-sm font-medium text-[var(--text-primary)] hover:text-[var(--primary-color)] transition-colors" href="index.html">Home</a>
+  <a class="text-sm font-medium text-[var(--text-primary)] hover:text-[var(--primary-color)] transition-colors" href="projects.html">Projects</a>
+  <a class="text-sm font-medium text-[var(--text-primary)] hover:text-[var(--primary-color)] transition-colors" href="index.html#about">About</a>
+  <a class="text-sm font-medium text-[var(--text-primary)] hover:text-[var(--primary-color)] transition-colors" href="#">Contact</a>
+</nav>
+</header>
+<main class="p-10 max-w-3xl mx-auto">
+<h2 class="text-2xl font-semibold mb-6">Get in Touch</h2>
+<form class="space-y-6">
+<div>
+<label class="block text-[var(--text-primary)] font-medium mb-2" for="name">Name</label>
+<input class="w-full border border-[var(--secondary-color)] rounded-md px-4 py-2" type="text" id="name" placeholder="Your Name"/>
+</div>
+<div>
+<label class="block text-[var(--text-primary)] font-medium mb-2" for="email">Email</label>
+<input class="w-full border border-[var(--secondary-color)] rounded-md px-4 py-2" type="email" id="email" placeholder="you@example.com"/>
+</div>
+<div>
+<label class="block text-[var(--text-primary)] font-medium mb-2" for="message">Message</label>
+<textarea class="w-full border border-[var(--secondary-color)] rounded-md px-4 py-2" id="message" rows="6" placeholder="Your message"></textarea>
+</div>
+<button class="bg-[var(--primary-color)] text-white px-6 py-3 rounded-md font-bold hover:bg-gray-700 transition-colors" type="submit">Send Message</button>
+</form>
+</main>
+</body>
+</html>

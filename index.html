@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    :root {
+      --primary-color: #5c6370;
+      --secondary-color: #e0e2e6;
+      --background-color: #f8f9fa;
+      --text-primary: #212529;
+      --text-secondary: #6c757d;
+      --accent-color: #ced4da;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-primary);
+    }
+  </style>
+</head>
+<body class="bg-[var(--background-color)] text-[var(--text-primary)]">
+<div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-[var(--secondary-color)] px-10 py-4">
+<div class="flex items-center gap-4 text-[var(--text-primary)]">
+<div class="size-6 text-[var(--primary-color)]">
+<svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9.75 6.75h16.5c.621 0 1.125-.504 1.125-1.125V6.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v10.25c0 .621.504 1.125 1.125 1.125z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h2 class="text-[var(--text-primary)] text-xl font-bold leading-tight tracking-[-0.015em]">Neville Kamana</h2>
+</div>
+<nav class="flex items-center gap-8">
+<a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm font-medium leading-normal transition-colors" href="#about">About</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm font-medium leading-normal transition-colors" href="#skills">Skills</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm font-medium leading-normal transition-colors" href="#projects">Projects</a>
+<a class="text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm font-medium leading-normal transition-colors" href="#contact">Contact</a>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-10 px-4 bg-[var(--primary-color)] text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] focus:ring-opacity-50 transition-colors">
+<span class="truncate">Resume</span>
+</button>
+</nav>
+</header>
+<main class="flex-1">
+<section class="relative flex min-h-[60vh] items-center justify-center bg-cover bg-center bg-no-repeat" style='background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkOus2gUcV8ce_QfL_BWjmfu50yYg6ScPyL1uVqZEfzXqAr4dz6yvqy4mCtDhaX5GSlnW8hevbFAsd6I05ZuZr3ZixPwqTpLZTMJ-xrxE_ViRKkYIiwukxhEngyH-_Qvtsoau1jWHVcI_al9iPddpo1kl2iXR73EfdG-NR21RtjjH7776zasBV1TGUCtnDrYiku-4SocRRaIFa5xckEeKCNSTCRINMc3f_0yM-qeviD5_kQIEFCfiGdgwYh26tKaaD4w1XfgKMuZ8");'>
+<div class="text-center text-white px-4">
+<h1 class="text-5xl font-black leading-tight tracking-[-0.033em] md:text-6xl">Hi, I'm Neville Kamana</h1>
+<p class="mt-4 max-w-2xl mx-auto text-lg font-normal leading-normal">
+                A passionate web developer specializing in creating dynamic and responsive web applications. With a focus on user experience and clean code, I bring ideas to life on the web.
+              </p>
+<button class="mt-8 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-12 px-6 bg-[var(--primary-color)] text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-[var(--primary-color)] focus:ring-opacity-50 transition-colors mx-auto">
+<span class="truncate">View Projects</span>
+</button>
+</div>
+</section>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div class="bg-white rounded-lg shadow-sm p-8 border border-[var(--secondary-color)] mb-12" id="about">
+<h2 class="text-3xl font-semibold text-[var(--text-primary)] mb-4">About Me</h2>
+<p class="text-base text-[var(--text-secondary)] leading-relaxed">
+                    I'm a web developer with a strong foundation in front-end technologies and a growing interest in back-end development. My goal is to build intuitive and efficient web solutions that meet user needs and exceed expectations. I'm always eager to learn new technologies and collaborate on exciting projects.
+                </p>
+</div>
+<div class="bg-white rounded-lg shadow-sm p-8 border border-[var(--secondary-color)]" id="skills">
+<h2 class="text-3xl font-semibold text-[var(--text-primary)] mb-6">Skills</h2>
+<div class="flex flex-wrap gap-4">
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">HTML</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">CSS</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">JavaScript</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">React</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Node.js</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Express.js</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">MongoDB</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Git</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">Responsive Design</p>
+</div>
+<div class="flex h-10 items-center justify-center gap-x-2 rounded-md bg-[var(--secondary-color)] px-4">
+<p class="text-[var(--text-primary)] text-sm font-medium leading-normal">UI/UX Principles</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
